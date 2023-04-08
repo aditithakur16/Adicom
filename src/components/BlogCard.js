@@ -1,8 +1,21 @@
-import React from 'react'
+import React from 'react';
+import { Link } from "react-router-dom";
 
 const BlogCard = () => {
   return (
-    <div>BlogCard</div>
+    <div className='col-3'>
+     <div className='blog-card'>
+      <div className='card-image'>
+        <img src= "images/blog-1.jpg" className='img-fluid' alt='blog'/>
+      </div>
+      <div className='blog-content'>
+        <p className='date'></p>
+        <h5 className='title'>abc</h5>
+        <p className='desc'></p>
+        <Link to="/" className='button'>Read More</Link>
+      </div>
+      </div> 
+    </div>
 
   )
 }
