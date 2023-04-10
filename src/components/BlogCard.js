@@ -9,9 +9,11 @@ const BlogCard = () => {
         <img src= "images/blog-1.jpg" className='img-fluid' alt='blog'/>
       </div>
       <div className='blog-content'>
-        <p className='date'></p>
-        <h5 className='title'>abc</h5>
-        <p className='desc'></p>
+        <p className='date'>1 Dec, 2022</p>
+        <h5 className='title'>A beautiful sunday morning renaissance</h5>
+      <p className='desc'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+      </p>
         <Link to="/" className='button'>Read More</Link>
       </div>
       </div> 
