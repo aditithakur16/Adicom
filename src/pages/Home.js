@@ -232,7 +232,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="blog-wrapper py-5 home-wrapper-2">
+      <section className="product-wrapper py-5 home-wrapper-2">
        <div className="container-xxl">
         <div className="row">
           <div className="col-12">
@@ -240,8 +240,6 @@ const Home = () => {
               Featured Collection
             </h3>
           </div>
-          <ProductCard />
-          <ProductCard />
           <ProductCard />
           <ProductCard />
           <ProductCard />
