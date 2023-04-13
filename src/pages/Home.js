@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Marquee from "react-fast-marquee";
 import BlogCard from "../components/BlogCard";
 import ProductCard from "../components/ProductCard";
-
+import SpecialProduct from "../components/SpecialProduct"
 const Home = () => {
   return (
     <>
@@ -219,7 +219,11 @@ const Home = () => {
               Special Products
             </h3>
           </div>
-          
+          </div>
+          <div className="row">
+            <SpecialProduct />
+            <SpecialProduct />
+            <SpecialProduct />
           </div>
         </div>
       </section>
