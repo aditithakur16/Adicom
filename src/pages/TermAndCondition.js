@@ -3,11 +3,11 @@ import BreadCrumb from "../components/BreadCrumb";
 import Meta from "../components/Meta";
 import Container from "../components/Container";
 
-const TermAndContion = () => {
+const TermAndCondition = () => {
   return (
     <>
-      <Meta title={"Term And Conditions"} />
-      <BreadCrumb title="Term And Conditions" />
+      <Meta title={"Term And Condition"} />
+      <BreadCrumb title="Term And Condition" />
       <Container className="policy-wrapper py-5 home-wrapper-2">
         <div className="row">
           <div className="col-12">
@@ -19,4 +19,4 @@ const TermAndContion = () => {
   );
 };
 
-export default TermAndContion;
+export default TermAndCondition;

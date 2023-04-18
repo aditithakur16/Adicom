@@ -10,14 +10,14 @@ import Blog from "./pages/Blog";
 import CompareProduct from "./pages/CompareProduct";
 import Wishlist from "./pages/Wishlist";
 import Login from "./pages/Login";
-import Forgotpassword from "./pages/Forgotpassword";
+import Forgetpassword from "./pages/Forgetpassword";
 import Signup from "./pages/Signup";
-import Resetpassword from "./pages/Resetpassword";
+import Resetpassword from "./pages/ResetPassword";
 import SingleBlog from "./pages/SingleBlog";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
-import RefundPloicy from "./pages/RefundPloicy";
+import RefundPolicy from "./pages/RefundPolicy";
 import ShippingPolicy from "./pages/ShippingPolicy";
-import TermAndContions from "./pages/TermAndContions";
+import TermAndCondition from './pages/TermAndCondition';
 import SingleProduct from "./pages/SingleProduct";
 import Cart from "./pages/Cart";
 import Checkout from "./pages/Checkout";
@@ -32,21 +32,22 @@ function App() {
       <Route path="about" element={<About/>}/>
       <Route path="contact" element={<Contact/>}/>
       <Route path="store" element={<OurStore/>}/>
-      <Route path="product/:id" element={<SingleProduct />} />
+      <Route path="product" element={<SingleProduct />} />
       <Route path="blogs" element={<Blog />} />
       <Route path="blog/:id" element={<SingleBlog />} />
+      <Route path="wishlist" element={<Wishlist />} />
       <Route path="cart" element={<Cart />} />
       <Route path="checkout" element={<Checkout />} />
       <Route path="compare-product" element={<CompareProduct />} />
-      <Route path="wishlist" element={<Wishlist />} />
       <Route path="login" element={<Login />} />
-      <Route path="forgot-password" element={<Forgotpassword />} />
+      <Route path="forget-password" element={<Forgetpassword />} />
       <Route path="signup" element={<Signup />} />
       <Route path="reset-password" element={<Resetpassword />} />
       <Route path="privacy-policy" element={<PrivacyPolicy />} />
-      <Route path="refund-policy" element={<RefundPloicy />} />
+      <Route path="refund-policy" element={<RefundPolicy />} />
       <Route path="shipping-policy" element={<ShippingPolicy />} />
-      <Route path="term-conditions" element={<TermAndContions />} />   
+      <Route path="term-condition" element={<TermAndCondition />} />
+         
     </Route>
    </Routes>
    </BrowserRouter>
